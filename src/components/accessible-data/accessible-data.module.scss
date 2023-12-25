@@ -1,0 +1,32 @@
+.root {}
+
+.div-accessible-data {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #755B5B;
+    background-image: linear-gradient(#002E33, #002E33);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.title-accessible-data {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 35px;
+    width: 500px;
+    padding: 25px;
+}
+
+.h4-accessible-data {
+    color: #FFFFFF;
+    padding: 5px;
+    margin-top: -10px;
+}

@@ -1,0 +1,94 @@
+.root {
+    padding: 30px;
+}
+
+.div-redirect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.a-redirect {
+    position: relative;
+    left: 10px;
+    color: #FF0000;
+}
+
+.div-card {
+    padding: 20px 0px 0px;
+}
+
+.div-form {}
+
+.div-forms {}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.label {
+    font-weight: 400;
+}
+
+.input {
+    background-color: #e7ebfd;
+    border-radius: 5px;
+    padding: 15px;
+    border: 0px solid black;
+    width: 350px;
+}
+
+input::placeholder {
+    color: #999; // Change this to your desired color
+}
+
+.div-content {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 2.62px -3px 17px 3px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.eye {
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    right: 22px;
+}
+
+.line {
+    position: relative;
+    bottom: 36px;
+    background-color: #F6F6F6;
+    width: 390px;
+    font-size: 3px;
+}
+
+.input {
+    background-color: rgb(231, 235, 253);
+}
+
+.div-btn {
+    display: flex;
+    align-content: center;
+    width: 360px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.input-btn {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px solid #FFFFFF;
+    width: 350px;
+}

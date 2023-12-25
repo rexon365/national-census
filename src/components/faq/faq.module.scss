@@ -1,0 +1,46 @@
+.root {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 0.84px -3px 17px -6px rgba(0, 0, 0, 0.05);
+    height: 400px;
+    width: 900px;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    width: 650px;
+    line-height: 1;
+}
+
+.tabs {
+    position: relative;
+    left: 80px;
+}
+
+.img {
+    border-radius: 10px;
+}

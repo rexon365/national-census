@@ -1,0 +1,39 @@
+.root {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.div-btn {}
+
+.input-banner {
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 1.41px 1.41px 20px 3px rgba(0, 0, 0, 0.01);
+}
+
+.input-text-banner {
+    background-color: rgba(202, 187, 187, 0);
+    padding: 10px;
+    border: 1px solid transparent;
+    outline: none;
+
+    &:active {}
+}
+
+.input-banner-submit {
+    background-color: #EA1E00;
+    border-radius: 100px;
+    color: #FFFFFF;
+
+    &:hover {
+        transform: scale(1.1);
+        border-color: transparent;
+    }
+
+    padding:10px;
+    font-weight:400;
+}

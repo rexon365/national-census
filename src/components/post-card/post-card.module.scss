@@ -1,0 +1,34 @@
+.root {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.div-card {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 300px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 2.46px 3px 28px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.p {
+    position: relative;
+    bottom: 10px;
+}
+
+.h2 {
+    font-weight: 600;
+    font-size: 20px;
+}

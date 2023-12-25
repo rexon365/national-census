@@ -1,0 +1,44 @@
+.root {
+    padding: 80px 30px;
+    background-color: #EFEFEF;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.h1 {
+    font-size: 2.5em;
+    width: 500px;
+}
+
+.p {
+    width: 500px;
+    position: relative;
+    bottom: 10px;
+}
+
+.div-card {
+    padding: 10px;
+}
+
+.div-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn-more {
+    width: 250px;
+    padding: 15px;
+    background-color: #FF0000;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 0px;
+}

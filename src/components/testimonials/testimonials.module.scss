@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 90px;
+    background-color: #111111;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.ptag {
+    position: relative;
+    top: -30px;
+    width: 400px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h1tag {
+    color: #FFFFFF;
+}
+
+.div-testimonial {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 1200px;
+}

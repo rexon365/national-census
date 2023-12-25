@@ -1,0 +1,124 @@
+.root {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #002E33;
+    padding: 100px 0px 80px;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/22/16/42/mt-fuji-1346096_1280.jpg');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    margin-top: 0px;
+    height: 650px;
+}
+
+.bdiv1 {
+    gap: 2px;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 60%;
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;
+    left: 60px;
+}
+
+.bdiv2 {
+    display: flex;
+    padding: 0px;
+    margin-right: 100px;
+}
+
+.banner-subtitle {
+    font-weight: 300;
+    color: #E3E3E3;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 0px;
+    padding: 25px 0px 0px 2px;
+    text-align: start;
+    width: 400px;
+}
+
+.register-now {
+    font-weight: 400;
+    border-radius: 100px;
+    margin-top: 20px;
+    background-color: #DDDDDD;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    background-color: rgba(40, 33, 33, 0);
+    display: flex;
+    padding: 20px;
+    text-align: start;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 3.5em;
+    width: 60%;
+}
+
+.banner-img {
+    border-radius: 10px;
+}
+
+.div-btn {}
+
+.input-banner {
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.input-text-banner {
+    background-color: rgba(202, 187, 187, 0);
+    padding: 10px;
+    border: 1px solid transparent;
+    outline: none;
+
+    &:active {}
+}
+
+
+
+.input-banner-submit {
+    background-color: #EA1E00;
+    border-radius: 100px;
+    color: #FFFFFF;
+
+    &:hover {
+        transform: scale(1.1);
+        border-color: transparent;
+    }
+}
+
+.main-bimg {
+    height: 500px;
+    position: relative;
+    top: 0px;
+    width: 700px;
+    right: 80px;
+    opacity: 0;
+}
+
+.div-btn-banner {
+    display: flex;
+    flex-direction: row;
+    margin: -30px 0px 0px 20px;
+    width: 300px;
+}
+
+.div-counter-banner {
+    width: 450px;
+}

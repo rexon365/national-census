@@ -1,0 +1,77 @@
+.root {
+    background-color: rgba(82, 44, 44, 0);
+}
+
+.div-icon {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 100%;
+    background-color: #f2393633;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.h4 {
+    font-size: 21px;
+    font-weight: 500;
+    margin: -5px 0px 0px;
+}
+
+.p {
+    font-size: 16px;
+    color: #12141D;
+    margin-top: 0px;
+}
+
+.div-icon-h4 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.h4-p {
+    padding: 10px;
+    width: 300px;
+}
+
+.icon1 {
+    color: #F23936;
+}
+
+.div-icon2 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 8px;
+    border-radius: 100%;
+    background-color: #45c64633;
+}
+
+.icon2 {
+    color: #45C646;
+}
+
+.div-icon3 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 8px;
+    border-radius: 100%;
+    background-color: #2563eb33;
+}
+
+.icon3 {
+    color: #2563EB;
+}

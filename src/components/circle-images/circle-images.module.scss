@@ -1,0 +1,87 @@
+.root {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin-left: 0px;
+    align-items: start;
+    align-content: start;
+    justify-items: start;
+    width: 550px;
+}
+
+.round-images {
+    border-radius: 100%;
+    width: 150px;
+    position: relative;
+    height: 150px;
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+.round-img2 {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 280px;
+}
+
+.round-img4 {
+    position: relative;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    bottom: -20px;
+    left: 100px;
+}
+
+.round-img5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 25px;
+    left: 180px;
+}
+
+.round-img3 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    right: 100px;
+}
+
+.round-img1 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 100%;
+    left: -25px;
+}
+
+.div-rimages {}
+
+.round-img6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 300px;
+    bottom: -25px;
+}

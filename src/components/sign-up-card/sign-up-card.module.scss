@@ -1,0 +1,96 @@
+.root {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.subtitle {
+    width: 400px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.div-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    margin-top: -30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: 400;
+}
+
+.input {
+    padding: 15px;
+    width: 350px;
+    border-radius: 5px;
+    border: 0px solid #D7D7D7;
+    background-color: #e7ebfd;
+    color: #1C1C1C;
+}
+
+input::placeholder {
+    color: #999; // Change this to your desired color
+}
+
+.eye {
+    justify-items: center;
+    position: relative;
+    top: 2px;
+    right: 26px;
+}
+
+.input-btn {
+    width: 350px;
+    padding: 15px;
+    font-weight: 600;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: 0px solid #432323;
+    border-radius: 5px;
+}
+
+.div-btn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    width: 350px;
+}
+
+.redirect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.link-to-login {
+    position: relative;
+    left: 5px;
+    color: #FF0000;
+}
+
+.card-div {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 5px;
+    box-shadow: 2.58px -3px 17px 3px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}

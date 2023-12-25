@@ -1,0 +1,51 @@
+.root {}
+
+.div-counter {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 46, 51, 0);
+    height: 120px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    gap: 0px px;
+    row-gap: 0px;
+}
+
+.h1_total_population {
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+.h1_total_male {
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+.h1_total_female {
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+.h1_taotal_under_21 {
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+.h4_label {
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -25px;
+}

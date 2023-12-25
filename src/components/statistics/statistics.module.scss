@@ -1,0 +1,25 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.div-statistics {
+    display: flex;
+    align-content: center;
+    padding: 30px;
+    width: 150px;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: -3px -3px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    opacity: 1;
+    color: #000000;
+    flex-direction: column;
+    align-items: center;
+}

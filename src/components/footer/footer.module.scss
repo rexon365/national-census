@@ -1,0 +1,143 @@
+.root {
+    padding: 50px 50px 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    align-content: center;
+    justify-content: center;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: sticky;
+}
+
+.diva {
+    width: 500px;
+}
+
+.divb {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.btn {
+    width: 180px;
+    font-weight: 400;
+    background-color: #FF0000;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+
+.line-div {
+    display: flex;
+    position: sticky;
+    justify-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.line {
+    color: #161616;
+    width: 950px;
+}
+
+.h1 {
+    color: #FFFFFF;
+}
+
+.p {
+    color: #FFFFFF;
+}
+
+.div-bottom {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.h2-title {
+    color: #FFFFFF;
+}
+
+.p-subtitle {
+    color: #FFFFFF;
+    width: 250px;
+}
+
+.portal {
+    color: #FF0000;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-menu-footer {
+    position: relative;
+    margin: 10px;
+    left: 12rem;
+}
+
+.socials-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-socials {
+    position: relative;
+    margin: 10px;
+    left: 12rem;
+}
+
+.a {
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.div-copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: sticky;
+    justify-items: center;
+}
+
+.copy-right {
+    color: #FFFFFF;
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+}
+
+.div-logo {
+    width: 400px;
+}
+
+.div-menus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 600px;
+}
