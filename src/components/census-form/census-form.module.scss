@@ -1,0 +1,85 @@
+.root {}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.census-formx {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+
+    .census-form-titlex {
+        text-align: center;
+        color: #333;
+        font-size: 2em;
+    }
+
+    .census-form-subtitlex {
+        text-align: center;
+        color: #666;
+        font-size: 1.2em;
+    }
+
+    .census-form-section-titlex {
+        margin-top: 1em;
+        color: #333;
+        font-size: 1.5em;
+    }
+
+    .census-form-inputx,
+    .census-form-selectx {
+        display: block;
+        padding: 1em;
+        margin-top: 0.2em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 500px;
+    }
+
+    .census-form-radiox,
+    .census-form-checkboxx {
+        margin: 0px 2px 0px -2px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .census-form-submitx {
+        display: block;
+        width: 100px;
+        padding: 1em;
+        margin-top: 1em;
+        color: #fff;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+
+        min-width:500px;
+    }
+
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sbt {
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+}

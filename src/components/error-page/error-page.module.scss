@@ -1,0 +1,36 @@
+.root {}
+
+.container {
+    margin: 0px;
+    padding: 100px 0px;
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 250px;
+}
+
+.the-btn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+}
+
+.div-image {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+.root {}
+
+.contain {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.h1 {
+    text-align: center;
+}
