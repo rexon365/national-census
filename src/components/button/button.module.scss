@@ -12,4 +12,9 @@
     height: 50px;
     align-self: center;
     color: #FFFFFF;
+    transition: transform .2s; 
+
+    &:hover {
+        transform: scale(1.1); 
+      }
 }

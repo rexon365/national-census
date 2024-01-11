@@ -6,7 +6,8 @@ export default createBoard({
     Board: () => <BannerImage />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1228,
-        canvasWidth: 786
+        windowWidth: 1362,
+        canvasWidth: 808,
+        windowHeight: 741
     }
 });

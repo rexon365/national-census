@@ -6,6 +6,7 @@ export default createBoard({
     Board: () => <Discover />,
     isSnippet: true,
     environmentProps: {
-        canvasWidth: 1065
+        canvasWidth: 1353,
+        windowWidth: 1356
     }
 });

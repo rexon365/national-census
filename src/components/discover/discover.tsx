@@ -17,7 +17,7 @@ export const Discover = ({ className }: DiscoverProps) => {
             <button className={styles['discover-btn']}>Check Local Statistics</button>
         </div>
         <div className={styles['div-d-img']}>
-            <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt="" className={styles['d-img']} />
+            <img src="https://cdn.pixabay.com/photo/2019/10/23/08/17/data-4570804_640.jpg" alt="" className={styles['d-img']} />
         </div>
     </div>;
 };

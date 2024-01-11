@@ -88,6 +88,11 @@
     align-self: center;
     color: #FFFFFF;
     margin-left: 120px;
+    transition: transform .2s; 
+
+    &:hover {
+        transform: scale(1.1); 
+      }
 }
 
 .nav-btn {
